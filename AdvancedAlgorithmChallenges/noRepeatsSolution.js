@@ -8,6 +8,8 @@
 // the same letter (in this case a) repeating.
 
 
+//This solution is currently incomplete!
+
 function permAlone(str) {
   function letterSwap(word,pos1,pos2){
   var tempWord = word.split("");
@@ -42,3 +44,4 @@ makePermutation("abc");
 }
 
 permAlone('aab');
+
