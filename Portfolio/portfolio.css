@@ -1,0 +1,230 @@
+/**Header**/
+.profile {
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.top-paragraph {
+  margin-top: 10%;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+#pages {
+  margin: 1% 2%;
+}
+
+.threethings li {
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#threelist {
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#pages li{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+#pages li:hover{
+  background-color: #555;
+  color: #000;  
+}
+
+.active {
+    background:#555;
+}
+
+/**body**/
+
+body {
+    background: url(http://i68.tinypic.com/m76mxd.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+#box {
+  margin-top: 4%;
+}
+/**peice 1**/
+#peice1 {
+  background-color: lightblue;
+}
+
+#portfolio{
+  margin: 0px;
+  padding: 5%;
+  font-size: 50px;
+  font-style: underline;
+  font-family: pacifico, serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.divider {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 5px;
+   width: 50%;
+   max-height: 5px;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+   color: #f00;
+   background-color: #f00;
+}
+/**peice 2**/
+#peice2 {
+  background-color: lightyellow;
+}
+
+.images-left {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left:2%;
+  margin-right:2%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: inline;
+  max-width: 100%;
+  height: 311px;
+}
+
+.images-right {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right:2%;
+/*   margin-left:2%; */
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: inline;
+  max-width: 100%;
+}
+
+.images:hover{
+  opacity: 0.5; 
+}
+
+#divider1 {
+  color: #0000FF;
+  background-color: #0000FF;
+  height: 3px;
+  border: 0;
+  width: 95%;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+}
+
+.lorem {
+  font-size: 20px;
+}
+/**peice3**/
+#peice3 {
+  background-color: pink;
+}
+
+#peice3header {
+  margin-top: 5%;
+  margin-bottom: 5%;  
+}
+
+.icons1 li{
+  display: inline-block;
+  color:#006dcc; 
+}
+
+.web {
+  margin-left: 5%;
+  
+}
+/**twitter-icon**/
+
+.fa-stack .fa.fa-twitter  {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.fa.fa-twitter:hover{
+  color: pink;
+}
+/************/
+
+/**git-hub icon**/
+
+
+.fa-stack .fa.fa-github  {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.fa-stack:hover .fa.fa-github{
+  color: pink;
+}
+
+.fa-stack .fa.fa-square  {
+  color: pink;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.fa-stack:hover .fa.fa-square{
+  color: #006dcc;
+}
+.icons-social {
+  font-size: 30px;
+}
+
+.sq {
+  font-size: 26px;  
+}
+
+/***linked-in***/
+
+.fa-stack .fa.fa-linkedin  {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.fa-stack:hover .fa.fa-linkedin{
+  color: pink;
+}
+/****************/
+
+/****google +*****/
+.fa-stack .fa.fa-google-plus  {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.fa-stack:hover .fa.fa-google-plus{
+  color: pink;
+}
+/*****************/
+
+/**Footer**/
+
+footer {
+  background-color: aquamarine;
+}
+
+.copy {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.2em;
+  margin:0;
+}
+
+
+
