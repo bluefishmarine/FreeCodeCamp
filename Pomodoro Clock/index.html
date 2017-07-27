@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="clock.css">
+</head>
+<body>
+ <div class="container">
+   <h1 class="title">Pomodoro Clock</h1>
+   <div class="outerBox">
+     <!------------>
+    <div class="selector">
+      <p>Break Length</p>
+      <span id="b-decrease" class="incrementers">
+       - 
+      </span>
+      <span id="b-time" class="number">
+       5 
+      </span>
+      <span id="b-increase" class="incrementers">
+       + 
+      </span>
+    </div>
+        <!------------>
+   <div class="selector">
+      <p>Session Length</p>
+      <span id="s-decrease" class="incrementers">
+       - 
+      </span>
+      <span id="s-time" class="number">25</span>
+      <span id="s-increase" class="incrementers">
+       + 
+      </span>
+    </div> 
+     <!------------>
+   </div> 
+ </div>
+ <!---------End Selectors---------->
+
+
+<!------------>
+
+<div class="container timer">
+   <div class="jumbotron">
+ <div class="final"></div>
+     <div class="display">
+      <p class="session"><strong>Session</strong></p> 
+      <h1><span id="minutes">25</span>:<span id="seconds">00</span></h1>
+     <div id="buttons">
+           <button class="btn btn-success">Start</button>
+        <button class="btn btn-danger">Stop</button>
+        <button class="btn btn-warning">Reset</button> 
+     </div>   
+    </div>
+  </div>
+</div>
+<p class="credits">Designed and Coded by Gary Ivanov</p>
+
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="clock.js"></script>
+</body>
+</html>
