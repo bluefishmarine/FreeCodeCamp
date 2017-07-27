@@ -1,0 +1,128 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(72, 92, 124);
+}
+
+.search{
+  margin: 400px auto 5% auto;
+  width: 260px;
+  max-width: 80%;
+  height: 40px;
+  border-radius: 25px 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(193, 123, 58);
+  transition: width 300ms cubic-bezier(1, -0.65, 0.58, 1);;
+}
+
+input{
+  padding: 5px;
+  height: 25px;
+  border: none;
+  background-color: rgb(72, 92, 124);
+  margin-left: 15px;
+  margin-top:3px;
+  width:85%;
+  color: rgb(255,255,255);
+}
+
+input:focus{
+  outline: none;
+}
+
+.stretch{
+  width: 350px;
+  border-color: green;
+}
+
+.animate{
+  animation-name: box;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(1, -0.65, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  }
+
+
+@keyframes box{
+  0% {
+    transform: translate(0,0);
+  }
+  100%{
+    transform: translate(0,-300px);
+  }
+}
+
+.animateReverse{
+  animation-name: box1;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(1, -0.65, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  }
+
+
+@keyframes box1{
+  0% {
+    transform: translate(0,-300px);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+
+#random{
+  color: rgb(255,255,255);
+  position: relative;
+  z-index: 1;
+  left: 70px;
+  top: 20px;
+}
+#random:hover{
+  text-decoration: none;
+}
+
+/*****Article styling*****/
+#articles{ 
+ transition: transform 300ms ease-in-out;
+  }
+#articles a:hover{
+  text-decoration: none;
+}
+#articles a{
+  color: rgb(0,0,0);
+}
+.card:hover{
+  border-left: 5px solid orange;
+}
+article{
+  margin-bottom: 20px;
+}
+
+.article{
+  padding: 40px 40px 10px 40px;
+  font-size: .9em;
+}
+
+#content{
+  margin-top: 30px;
+}
+
+.articleSwoosh{
+  transform: translate(0,-200px);
+}
+
+@media screen and (max-width:350px){
+  .search{
+    width: 150px;
+  }
+  input{
+    width: 60%;
+  }
+  #random{
+  left: 10px;
+  }
+}
