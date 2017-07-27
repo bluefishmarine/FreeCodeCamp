@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Weather App</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body>
+<div class="container">
+    <table class="table table-inverse table-bordered table-hover">
+    <thead>
+      <th>FCC Weather App</th>
+    </thead>
+    <tbody>
+       <tr>
+      <td id="Loc">Location</td>
+    </tr>
+    <tr>
+      <td><span id="Temp">Temp</span><a id="Toggle" href="#"><i class="fa fa-thermometer-full" aria-hidden="true"></i></a></td>
+    </tr>
+    <tr>
+      <td><p id="Desc">Description</p><img src="http://openweathermap.org/img/w/10d.png"><a href="#" id="button"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></td>
+    </tr> 
+    </tbody>
+  </table>
+  <!---------------->
+  <div id="extra-table">
+    <table id="extra" class="table table-bordered table-hover table-inverse">
+    <tbody>
+       <tr>
+      <td id="hum">Humidity</td>
+    </tr>
+    <tr>
+      <td id="press">Pressure</td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
+  <footer>Created By Gary Ivanov</footer>
+</div>
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="weather.js"></script>
+</body>
+</html>

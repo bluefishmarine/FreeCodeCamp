@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+    background: url(http://i63.tinypic.com/2m2tjsk.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+p,button {
+  text-align:center;
+}
+
+.container{
+  margin-top: 10%;
+}
+
+table,th {
+  font-size: 2em;
+  text-align: center;
+  width: auto !important;
+  margin: 0 auto;
+}
+
+.table{
+  margin-bottom: 0;
+}
+
+#Toggle{
+  float: right;
+}
+
+#id img{
+  display: inline-block;
+}
+
+#extra td{
+ width: 492px;
+}
+
+#button {
+float: right;
+}
+
+#extra-table{
+  margin-top: 0;
+  display:none;
+}
+
+
+footer{
+  margin-top: 30px;
+  text-align:center;
+  color: rgb(255,255,255);
+  z-index: 0;
+}
